@@ -25,7 +25,7 @@ npm install -g @openai/codex
 ### Option 1: Standalone Skill Installation
 
 ```bash
-git clone --depth 1 https://github.com/Eliott/codex-plugin.git /tmp/skill-codex-tmp && \
+git clone --depth 1 https://github.com/kharonsec/codex-plugin.git /tmp/skill-codex-tmp && \
 mkdir -p ~/.claude/skills && \
 cp -r /tmp/skill-codex-tmp/plugins/skill-codex/skills/codex ~/.claude/skills/codex && \
 rm -rf /tmp/skill-codex-tmp
@@ -36,7 +36,7 @@ rm -rf /tmp/skill-codex-tmp
 If Claude Code's plugin marketplace is available:
 
 ```
-/plugin marketplace add Eliott/codex-plugin
+/plugin marketplace add kharonsec/codex-plugin
 /plugin install skill-codex@codex-plugin
 ```
 

@@ -1,7 +1,7 @@
 {
   "name": "codex-plugin",
   "owner": {
-    "name": "Eliott"
+    "name": "kharonsec"
   },
   "metadata": {
     "description": "Delegate coding tasks from Claude Code to OpenAI Codex CLI for cost-efficient execution",
