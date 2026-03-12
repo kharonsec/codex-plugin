@@ -1,0 +1,20 @@
+{
+  "name": "codex-plugin",
+  "owner": {
+    "name": "Eliott"
+  },
+  "metadata": {
+    "description": "Delegate coding tasks from Claude Code to OpenAI Codex CLI for cost-efficient execution",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-codex",
+      "source": "./plugins/skill-codex",
+      "description": "Delegate coding tasks from Claude Code to OpenAI Codex CLI",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["codex", "openai", "delegation", "cost-saving", "agentic"]
+    }
+  ]
+}
